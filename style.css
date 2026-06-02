@@ -1,0 +1,166 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display:flex;
+    border-bottom:1px solid #ccc;
+    height:90vh;
+}
+
+#left-header{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-start;
+    width:100%;
+    padding:50px;
+}
+
+#logo{
+    width:70px;
+    margin:0;
+}
+
+#left-image{
+    width:800px;
+    display:block;
+    margin:40px;
+    position:absolute;
+    transform:translateX(-100%);
+}
+
+#left-text{
+    font-size:30px;
+    font-weight:500;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1;
+    position:static;
+    width:100%;
+}
+
+span{
+    color:#1877f2;
+}
+
+#left{
+    border-right:2px solid #ccc;
+    width:65%;
+    display:flex;
+    position:relative;
+    min-width:900px;
+}
+
+#right{
+    margin:100px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-self:center;
+    width:35%;
+}
+
+#right form{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:15px;
+    padding:5px;
+    width:100%;
+}
+
+#right input{
+    padding: 15px;
+    margin-bottom:15px;
+    font-size:16px;
+    font-weight:500;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+#right input:hover{
+    border-color:#000000;
+}
+
+#login-header{
+    color:#000000;
+    font-size:20px;
+    font-weight:500;
+    margin-top:10px;
+    cursor:pointer;
+    padding:10px;
+}
+
+#login{
+    border:none;
+    background-color:#1877f2;
+    color:#fff;
+    font-size:16px;
+    font-weight:500;
+    padding:15px;
+    width:100%;
+    border-radius:50px;
+}
+
+#forgot-password{
+    align-self:center;
+    padding:15px;
+    justify-self:center;
+    font-size:16px;
+    font-weight:500;
+    margin-top:10px;
+    cursor:pointer;
+    width:100%;
+    border-radius:50px;
+    justify-content:center;
+    display:flex;
+}
+
+#forgot-password:hover, #create-account:hover{
+    background-color:#eceff5;
+}
+
+#meta img{
+    width: 30px;
+    margin-right:10px;
+}
+
+#meta{
+    display:flex;
+    align-items:center;
+    margin-top:20px;
+    font-size: 16px;
+    justify-content:center;
+}
+
+#create-account{
+    padding:15px;
+    font-size:16px;
+    font-weight:500;
+    margin-top:60px;
+    cursor:pointer;
+    color:#1877f2;
+    border:2px solid #1877f2;
+    border-radius:50px;
+    width:100%;
+    justify-content:center;
+    display:flex;
+}
+
+footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-self:center;
+    align-self:center;
+    font-size:15px;
+    padding:10px;
+}
+
+footer p{
+    margin:20px;
+    cursor:pointer;
+}
