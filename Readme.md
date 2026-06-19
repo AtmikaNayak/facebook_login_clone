@@ -1,30 +1,34 @@
-# Facebook Login Page Clone
+# Facebook Login Clone
 
-A responsive front-end clone of the Facebook login page built using **HTML** and **CSS**. This project recreates the visual design and layout of Facebook's login interface for learning and practice purposes.
+A responsive clone of Facebook's login page built using HTML and CSS. The project recreates the visual layout and styling of Facebook's authentication screen, including branding, login form, footer language options, and responsive behavior.
 
 ## Live Demo
 
 https://facebookloginclone-seven.vercel.app/
 
-## Features
+## Screenshot
 
-* Responsive Facebook-inspired layout
-* Clean and modern user interface
-* Login form with email and password fields
-* "Forgotten password?" and "Create a new account" sections
-* Meta branding footer
-* Multi-language footer options
-* Mobile-friendly design
+![Facebook Login Clone](facebook-ss.png)
 
-## Technologies Used
+## Tech Stack
 
 * HTML5
 * CSS3
+* Vercel (Deployment)
+
+## Features
+
+* Responsive layout
+* Facebook-inspired UI
+* Login form design
+* Meta branding section
+* Multi-language footer
+* Clean and lightweight implementation
 
 ## Project Structure
 
 ```text
-Facebook-Login-Clone/
+facebook_login_clone/
 │
 ├── index.html
 ├── style.css
@@ -36,46 +40,32 @@ Facebook-Login-Clone/
 └── README.md
 ```
 
-## Screenshot
-
-![Facebook Login Clone](facebook-ss.png)
-
 ## Getting Started
 
 ### Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd Facebook-Login-Clone
+git clone https://github.com/AtmikaNayak/facebook_login_clone.git
 ```
 
 ### Run Locally
 
 Simply open `index.html` in your browser.
 
-Alternatively, use VS Code Live Server:
+Alternatively, if you have VS Code:
 
-1. Open the project folder in VS Code.
-2. Right-click `index.html`.
-3. Select **Open with Live Server**.
-
-## Learning Objectives
-
-This project helped practice:
-
-* HTML page structure
-* CSS Flexbox layouts
-* Responsive web design
-* Image positioning and styling
-* Form design
-* UI cloning techniques
-
-## Disclaimer
-
-This project is created for educational purposes only and is not affiliated with, endorsed by, or connected to Facebook or Meta. All trademarks and brand assets belong to their respective owners.
+```bash
+# Install Live Server extension
+# Right-click index.html
+# Open with Live Server
+```
 
 ## Author
 
 **Atmika Nayak**
 
 GitHub: https://github.com/AtmikaNayak
+
+## Disclaimer
+
+This project was created for educational and portfolio purposes only. Facebook, Meta, and related assets are trademarks of their respective owners. This project is not affiliated with or endorsed by Meta.
