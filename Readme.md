@@ -1,71 +1,55 @@
 # Facebook Login Clone
 
-A responsive clone of Facebook's login page built using HTML and CSS. The project recreates the visual layout and styling of Facebook's authentication screen, including branding, login form, footer language options, and responsive behavior.
-
-## Live Demo
-
-https://facebookloginclone-seven.vercel.app/
-
-## Screenshot
-
-![Facebook Login Clone](facebook-ss.png)
-
-## Tech Stack
-
-* HTML5
-* CSS3
-* Vercel (Deployment)
+A frontend clone of Facebook's login page built using HTML and CSS. The project recreates the layout, styling, and user interface of Facebook's authentication screen for learning and practice purposes.
 
 ## Features
 
-* Responsive layout
-* Facebook-inspired UI
-* Login form design
-* Meta branding section
-* Multi-language footer
-* Clean and lightweight implementation
+- Facebook-inspired login interface
+- Responsive layout
+- Styled login form
+- Create Account button
+- Modern UI design
+- Mobile-friendly structure
+
+## Tech Stack
+
+- HTML
+- CSS
 
 ## Project Structure
 
 ```text
-facebook_login_clone/
-│
-├── index.html
+facebook-login-clone/
+├── images/
 ├── style.css
-├── facebook.png
-├── meta.png
-├── facebook.ico
-├── HpEiFYDux5j.webp
-├── facebook-ss.png
+├── index.html
 └── README.md
 ```
 
-## Getting Started
-
-### Clone the Repository
+## Running Locally
 
 ```bash
-git clone https://github.com/AtmikaNayak/facebook_login_clone.git
+git clone <repository-url>
+
+cd facebook-login-clone
 ```
 
-### Run Locally
+Open `index.html` in a browser.
 
-Simply open `index.html` in your browser.
+## Running Tests
 
-Alternatively, if you have VS Code:
+No automated tests are configured for this project.
 
-```bash
-# Install Live Server extension
-# Right-click index.html
-# Open with Live Server
-```
+## Integration Notes
 
-## Author
+This project focuses only on frontend design and can be connected to authentication systems or backend services if needed.
 
-**Atmika Nayak**
+## Screenshots
 
-GitHub: https://github.com/AtmikaNayak
+### Login Page
 
-## Disclaimer
+![Facebook Login](images/facebook-login.png)
 
-This project was created for educational and portfolio purposes only. Facebook, Meta, and related assets are trademarks of their respective owners. This project is not affiliated with or endorsed by Meta.
+## Additional Resources
+
+- Facebook: https://www.facebook.com/
