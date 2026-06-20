@@ -46,7 +46,7 @@ This project focuses only on frontend design and can be connected to authenticat
 
 ### Login Page
 
-![Facebook Login](images/facebook-ss.png)
+![Facebook Login](facebook-ss.png)
 
 ## Additional Resources
 
