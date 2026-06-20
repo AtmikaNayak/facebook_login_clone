@@ -44,11 +44,9 @@ No automated tests are configured for this project.
 
 This project focuses only on frontend design and can be connected to authentication systems or backend services if needed.
 
-## Screenshots
-
 ### Login Page
 
-![Facebook Login](images/facebook-login.png)
+![Facebook Login](images/facebook-ss.png)
 
 ## Additional Resources
 
