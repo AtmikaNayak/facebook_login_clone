@@ -48,6 +48,10 @@ This project focuses only on frontend design and can be connected to authenticat
 
 ![Facebook Login](facebook-ss.png)
 
+## Live Demo
+
+https://facebookloginclone-seven.vercel.app/
+
 ## Additional Resources
 
 - Facebook: https://www.facebook.com/
